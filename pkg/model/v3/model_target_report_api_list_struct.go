@@ -673,4 +673,5 @@ type TargetReportApiListStruct struct {
 	RegionId                                   *int64   `json:"region_id,omitempty"`
 	ProjectId                                  *int64   `json:"project_id,omitempty"`
 	ProjectName                                *string  `json:"project_name,omitempty"`
+	OsType                                     *int64   `json:"os_type"`
 }
