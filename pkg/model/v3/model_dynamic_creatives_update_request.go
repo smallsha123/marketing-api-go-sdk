@@ -19,4 +19,5 @@ type DynamicCreativesUpdateRequest struct {
 	AutoDerivedProgramCreativeSwitch *bool               `json:"auto_derived_program_creative_switch,omitempty"`
 	ConfiguredStatus                 ConfiguredStatus    `json:"configured_status,omitempty"`
 	IsRetryBatchUpdate               *bool               `json:"is_retry_batch_update,omitempty"`
+	ProgramCreativeInfo              interface{}         `json:"program_creative_info,omitempty"`
 }
